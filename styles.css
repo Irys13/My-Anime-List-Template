@@ -15,7 +15,7 @@ body {
 .header {
   position: fixed; width: 300px; height: 480px; left: calc(50% + 250px); top: 100px; z-index: 1;}
 .header:before {
-  content: url(https://image.myanimelist.net/ui/fkLITaJTefafxFKPGRzngugMyEX13ps3hq4aKHOIBB5ZXXYjF4jsNJpR0LzOs4Yn);
+  content: url(https://i.ibb.co/7gndgs6/image.png);
   display: block; text-align: right;}
 .header .header-menu.other {
   display: block; top: unset; bottom: 98px; left: -10px;}
