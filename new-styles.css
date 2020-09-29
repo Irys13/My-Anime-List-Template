@@ -1,0 +1,41 @@
+@\import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,800";
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/datatitlebefore";
+
+body {
+    background: #dfd1e0 repeat-x center/contain fixed
+    url(https://image.myanimelist.net/ui/fkLITaJTefafxFKPGRzngtEQrJsgH6ZcWACcraNYdFaj6awlwd5NVw4l1RHz4T-_)!important;
+    font: 11px Open Sans; color: #ccc; letter-spacing: 1px; text-transform: uppercase;
+}
+
+.header .header-title, .header .header-menu, .header .header-info, #header-menu-button, [data-owner=""] .list-menu-float, .icon-menu:not(.profile), .cover-block, #cover-image-container,
+.status-menu-container .status-menu .status-button::after, .status-menu-container .search-container,
+.list-unit .list-status-title .stats, .list-table .list-table-header .header-title.image,
+.list-table .list-table-data .data.image, .icon-watch.ml4, .more,
+.list-table .list-table-data .tags .edit {
+  display: none;
+}
+  
+.header {
+    position: fixed; width: 300px; height: auto; left: calc(50% + 250px); top: 100px; z-index: 1;
+}
+
+.header:before {
+    content: url(https://i.ibb.co/7gndgs6/image.png);
+}
+ 
+.list-container, .list-block, .list-unit, .list-unit .list-status-title {
+    width: 600px;
+}
+ 
+.list-container {
+    background-color: transparent;
+}
+ 
+.list-unit .list-status-title {
+    background-color: transparent; 
+}
+
+.list-unit .list-status-title .text {
+    color: rgba(255,255,255,.6);
+    text-align: left;
+}
