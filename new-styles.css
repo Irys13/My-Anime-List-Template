@@ -2,9 +2,11 @@
 @\import "https://malscraper.azurewebsites.net/covers/auto/presets/datatitlebefore";
 
 body {
-    background: #dfd1e0 repeat-x center/contain fixed
-    url(https://image.myanimelist.net/ui/fkLITaJTefafxFKPGRzngtEQrJsgH6ZcWACcraNYdFaj6awlwd5NVw4l1RHz4T-_)!important;
-    font: 11px Open Sans; color: #ccc; letter-spacing: 1px; text-transform: uppercase;
+    background: rgba(34,40,42,1) !important;
+    font: 11px Open Sans !important; 
+    color: #ccc; 
+    letter-spacing: 1px; 
+    text-transform: uppercase;
 }
 
 .header .header-title, .header .header-menu, .header .header-info, #header-menu-button, [data-owner=""] .list-menu-float, .icon-menu:not(.profile), .cover-block, #cover-image-container,
@@ -27,7 +29,7 @@ body {
     width: 600px;
 }
  
-.list-container {
+.list-container, .list-table > tbody:nth-of-type(2n+1), .list-table .list-table-header .header-title {
     background-color: transparent;
 }
  
@@ -38,4 +40,51 @@ body {
 .list-unit .list-status-title .text {
     color: rgba(255,255,255,.6);
     text-align: left;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.started, .finished, .airing-started, .airing-finished {
+    display: none;
+}
+
+.list-container {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.list-block {
+    position: absolute;
+}
+
+.list-unit table {
+    display: block;
+    width: 600px;
+    position: relative;
+    right: 150px;
+}
+
+table {
+    font-size: 11px;
+}
+
+.tags {
+    width: 100px;
+}
+
+.link {
+    font-weight: bold;
+}
+
+.add-edit-more {
+    display: none;
+    font-size: 8px;
+}
+
+.title:hover .add-edit-more {
+    display: inline-block
 }
